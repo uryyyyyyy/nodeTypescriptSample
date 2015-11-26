@@ -1,14 +1,15 @@
 # typescriptSample
 
 
-## inner module
+## build
 
-./node_modules/typescript/bin/tsc --sourcemap --noImplicitAny --target es5 --out build/build.js src/inner/b.ts
+./node_modules/typescript/bin/tsc -p ./
 
-node build/buiild.js
 
-## outer module
+## test
 
-./node_modules/typescript/bin/tsc --module commonjs  src/outer/b.ts
+```
+./node_modules/typescript/bin/tsc -p ./test/
 
-(this command will generate a.js & b.js, so cannot  use `--out` option?)
+./node_modules/mocha/bin/mocha testBuild/test/helloworld/utilTest.js --require ./enable-power-assert.js
+```
