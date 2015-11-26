@@ -1,6 +1,6 @@
 {
-  "name": "typescriptSample",
-  "version": "0.0.0",
+  "name": "nodeTypescriptSample",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/uryyyyyyy/typescriptSample.git"
+    "url": "git://github.com/uryyyyyyy/nodeTypescriptSample.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uryyyyyyy/typescriptSample/issues"
+    "url": "https://github.com/uryyyyyyy/nodeTypescriptSample/issues"
   },
-  "homepage": "https://github.com/uryyyyyyy/typescriptSample",
+  "homepage": "https://github.com/uryyyyyyy/nodeTypescriptSample",
+  "dependencies": {
+    "aws-sdk": "^2.2.19",
+    "bluebird": "^3.0.5",
+    "lodash": "^3.10.1"
+  },
   "devDependencies": {
+    "espower-loader": "^1.0.0",
+    "intelli-espower-loader": "^1.0.0",
+    "mocha": "^2.3.4",
+    "power-assert": "^1.2.0",
+    "proxyquire": "^1.7.3",
+    "tsd": "^0.6.5",
     "typescript": "^1.6.2"
   }
 }
