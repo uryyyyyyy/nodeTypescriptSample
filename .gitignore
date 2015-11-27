@@ -4,3 +4,4 @@ build/
 src/**/*.js
 typings/
 testBuild/
+.idea/
