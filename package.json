@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/uryyyyyyy/nodeTypescriptSample",
   "dependencies": {
+    "asyncawait": "^1.0.1",
     "aws-sdk": "^2.2.19",
-    "bluebird": "^3.0.5",
-    "lodash": "^3.10.1",
-    "asyncawait": "^1.0.1"
+    "axios": "^0.7.0",
+    "es6-promise": "^3.0.2",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "espower-loader": "^1.0.0",

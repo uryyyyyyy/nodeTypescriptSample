@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../../build/server",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "files": [
+    "main.ts",
+    "../../typings/tsd.d.ts"
+  ]
+}

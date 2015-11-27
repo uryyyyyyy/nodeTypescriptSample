@@ -13,6 +13,12 @@ npm install
 ./node_modules/typescript/bin/tsc -p ./src/helloWorld/
 ```
 
+## run (helloWorld)
+
+```
+node build/helloWorld/main.js
+```
+
 ## test
 
 ```
