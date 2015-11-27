@@ -1,12 +1,13 @@
 import util = require("../../src/helloWorld/util");
-let assert = require('power-assert');
+import assert_ from 'power-assert';
+var assert = assert_;//assertの名前が変わるとdecorateされなかった。
 
 describe('util', () => {
 
     describe('hello()', () => {
         it('should add return [2,3]', () => {
             let result = util.hello();
-            assert(result ===  "string");
+            assert(result ===  "Hello, TypeScript");
         });
     });
 });

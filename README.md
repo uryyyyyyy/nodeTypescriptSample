@@ -1,15 +1,21 @@
 # typescriptSample
 
+## set up
 
-## build
+```
+npm install
+./node_modules/tsd/build/cli.js
+```
 
-./node_modules/typescript/bin/tsc -p ./
+## build (helloWorld)
 
+```
+./node_modules/typescript/bin/tsc -p ./src/helloWorld/
+```
 
 ## test
 
 ```
 ./node_modules/typescript/bin/tsc -p ./test/
-
 ./node_modules/mocha/bin/mocha testBuild/test/helloworld/utilTest.js --require ./enable-power-assert.js
 ```

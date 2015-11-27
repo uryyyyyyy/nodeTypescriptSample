@@ -3,15 +3,14 @@
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "build",
+    "outDir": "./build",
     "removeComments": true,
     "noImplicitAny": true,
     "inlineSourceMap": true,
     "inlineSources": true
   },
   "files": [
-    "src/**/*.ts",
-    "test/**/*.ts",
+    "src/outer/b.ts",
     "typings/tsd.d.ts"
   ]
 }
